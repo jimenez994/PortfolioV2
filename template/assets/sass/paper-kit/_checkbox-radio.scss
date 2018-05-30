@@ -40,7 +40,7 @@
         text-align: center;
         font-size: 14px;
         opacity: 0;
-        color: #EFE;
+        color: #FFF;
         border: 0;
         background-color: inherit;
     }
@@ -82,13 +82,6 @@
 .form-check-radio{
     .form-check-label{
         padding-left: 2rem;
-        .form-check-sign::after{
-            -webkit-transition: opacity 0.3s linear;
-            -moz-transition: opacity 0.3s linear;
-            -o-transition: opacity 0.3s linear;
-            -ms-transition: opacity 0.3s linear;
-            transition: opacity 0.3s linear;
-        }
     }
     &.disabled{
         .form-check-label{
@@ -143,25 +136,3 @@
 .form-check-radio input[type="radio"]:disabled + .form-check-sign::after {
     color: $dark-gray;
 }
-//
-// .form-check:not(.disabled):hover{
-//     .form-check-sign:after{
-//         opacity: .50;
-//     }
-// }
-// .form-check-radio:not(.disabled){
-//     .form-check-label:hover{
-//         .form-check-sign::after{
-//             font-family: 'FontAwesome';
-//             content: "\f192";
-//             position: absolute;
-//             font-size: 22px;
-//             opacity: .50;
-//             top: -5px;
-//             left: 5px;
-//         }
-//         .form-check-sign::before{
-//             opacity: 0;
-//         }
-//     }
-// }

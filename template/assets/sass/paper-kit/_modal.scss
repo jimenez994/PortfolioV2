@@ -11,13 +11,21 @@
 
         }
     }
-    .modal-title{
-        color: $black-color;
-    }
     button.close{
         margin-top: -25px;
     }
 }
+.modal-dialog{
+    &.modal-sm,
+    &.modal-register{
+        .modal-header{
+            button.close{
+                margin-top: 0;
+            }
+        }
+    }
+}
+
 .modal-content {
     border: 0 none;
     border-radius: 10px;
@@ -28,6 +36,7 @@
         }
     }
 }
+
 .modal-dialog {
     padding-top: 60px;
 }

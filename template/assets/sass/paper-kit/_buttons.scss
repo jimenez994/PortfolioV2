@@ -8,6 +8,7 @@
     cursor: pointer;
     text-transform: uppercase;
 
+
     &.btn-border,
     &.btn-link{
         background-color: $transparent-bg;
@@ -32,6 +33,11 @@
         background-image: none;
         background-color: transparent;
     }
+
+    .nc-icon{
+        position: relative;
+        top: 2px;
+    }
 }
 .btn-just-icon{
     border-radius: $border-radius-btn-large;
@@ -47,14 +53,6 @@
         font-size: $font-size-medium;
         padding: 2px 0px;
     }
-}
-.upgrade-pro{
-    .btn{
-        margin-top: 30px;
-    }
-}
-.btn-link.btn-just-icon{
-    padding: 8px;
 }
 
 .btn-group .btn + .btn,
@@ -168,7 +166,7 @@
 
         i{
             font-size: $font-size-small;
-
+            top: 1px !important;
         }
     }
     &.btn-lg{
@@ -181,9 +179,10 @@
             font-size: 18px;
             padding: 0;
         }
-
     }
-
+    &.btn-link{
+        padding: 8px !important;
+    }
 }
 .btn-round{
     border-radius: 30px;

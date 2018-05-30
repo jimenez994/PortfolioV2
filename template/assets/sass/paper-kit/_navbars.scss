@@ -1,3 +1,4 @@
+
 .nav {
     .nav-item{
         .nav-link:hover,
@@ -15,10 +16,6 @@
     background: $white-color;
     box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
 
-    .navbar-toggler-right{
-        float: right;
-    }
-
     .navbar-brand{
         font-weight: $font-weight-bold;
         margin: $navbar-margin-brand;
@@ -26,29 +23,6 @@
         font-size: $font-size-base;
         color: $default-color;
         text-transform: uppercase;
-    }
-    .nav-link{
-        i{
-            font-size: 16px;
-            position: relative;
-            top: 4px;
-            right: 3px;
-        }
-        [class^="fa"]{
-            top: 2px;
-        }
-        p{
-            margin: 0px 0px;
-            color: #9A9A9A !important;
-            text-transform: uppercase;
-            font-weight: 600;
-            font-size: 12px;
-            line-height: 1.5em;
-            padding: 15px 0;
-        }
-        p:hover{
-            color: #403D39 !important;
-        }
     }
     .navbar-nav{
         .nav-item .nav-link {
@@ -66,10 +40,22 @@
             padding: 9px;
 
          }
-
+        .nav-item .nav-link [class^="fa"]{
+            font-size: 17px;
+            position: relative;
+            margin: 0px -5px;
+            right: 5px;
+        }
         .dropdown-menu{
             border-radius: $border-radius-extreme;
             margin-top: 1px;
+        }
+        .nav-item{
+            .btn{
+                i{
+                    color: $white-color;
+                }
+            }
         }
     }
     .navbar-collapse{
@@ -97,20 +83,24 @@
             }
         }
     }
-
+    #navbarSupportedContent{
+        .nav-item{
+            position: relative;
+        }
+    }
     .notification-bubble{
-        right: 72px;
         padding: 0.2em 0.6em;
         position: absolute;
-        top: 15px;
+        top: 10px;
+        right: -2px;
     }
     .btn{
-       margin: $navbar-margin-btn;
+       margin: 14px 3px;
        font-size: $font-size-small;
        i{
-        //    margin-right: 5px !important;
            font-size: 14px;
-           line-height: 13px;
+           position: relative;
+           top: 2px;
        }
     }
     .btn-simple{
@@ -147,13 +137,7 @@
             }
     }
 }
-.navbar.fixed-top{
-    .nav-link{
-        i{
-            top: 4px;
-        }
-    }
-}
+
 .navbar-absolute{
     position: absolute;
     width: 100%;
@@ -262,7 +246,7 @@
             color: $info-color;
         }
 
-        .navbar-toggler:hover,.navbar-toggler:focus {
+        .navbar-toggle:hover,.navbar-toggle:focus {
             background-color: transparent;
         }
 
@@ -321,7 +305,7 @@
 
 }
 
-.navbar-toggler{
+.navbar-toggle{
     margin-top: 19px;
     margin-bottom: 19px;
     border: $none;
@@ -334,8 +318,8 @@
         border-color: transparent;
     }
 
-    &.navbar-default .navbar-toggler:hover,
-    &.navbar-default .navbar-toggler:focus {
+    &.navbar-default .navbar-toggle:hover,
+    &.navbar-default .navbar-toggle:focus {
         background-color: transparent;
     }
 }
@@ -367,27 +351,24 @@
         }
     }
 }
-.nav-tabs-navigation{
-    &:last-child{
-        .nav-stacked{
-            border-right: 1px solid #F1EAE0;
-            font-size: 16px;
-            font-weight: 600;
-            padding: 20px 0;
-            .nav-item{
-                .nav-link{
-                    padding: 7px 25px;
-                }
+.nav-tabs-navigation:last-child{
+    .nav-stacked{
+        border-right: 1px solid #F1EAE0;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 20px 0;
+        .nav-item{
+            .nav-link{
+                padding: 7px 25px;
             }
         }
-        border-bottom: 0 none;
     }
+    border-bottom: 0 none;
 }
-
 
 //menu bars
 
-.navbar-nav > li > .dropdown-menu,
+.navbar-nav > .dropdown-menu,
 .dropdown .dropdown-menu{
     transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s, opacity 0.3s ease 0s, height 0s linear 0.35s;
 }
@@ -420,12 +401,7 @@
 .navbar-toggler .navbar-toggler-icon + .navbar-toggler-icon{
     margin-top: 4px;
 }
-.navbar .navbar-toggler{
-    margin-top: 24px;
-}
-.navbar .navbar-burger{
-    margin-top: 20px;
-}
+
 .navbar-toggler-icon{
     display: block;
     position: relative;
@@ -494,18 +470,4 @@
     .dropdown-menu .divider{
         background-color: rgba($white-color,.2);
     }
-}
-.section-navbars{
-    #menu-dropdown{
-        .navbar{
-            .navbar-toggler{
-                .navbar-toggler-icon{
-                    background: $white-color;
-                }
-            }
-        }
-    }
-}
-.nav-no-padding{
-    padding-top: 0 !important;
 }

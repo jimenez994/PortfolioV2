@@ -95,7 +95,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     color: $danger-color;
 }
 
-// small changes
+//stefan changes
 
 .pagination .page-item .page-link .fa{
     width: auto;
@@ -116,9 +116,4 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .bg-danger{
     @include navbar-color($bg-danger !important);
-}
-
-.navbar-transparent{
-    background-color: transparent !important;
-    border-bottom: 1px solid transparent;
 }
