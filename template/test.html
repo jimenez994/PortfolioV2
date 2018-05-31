@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>Paper Kit 2 PRO by Creative Tim</title>
+
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet" />
+  <link href="assets/css/demo.css" rel="stylesheet" />
+
+  <!--     Fonts and icons     -->
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet">
+
+</head>
+
+<body class="presentation-page loading off-canvas-menu">
+
+ 
+
+
+  
+
+    <div class="section section-components section-dark">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <div class="image-container">
+            <img class="components-macbook" src="assets/img/presentation-page/laptop-basic.png" alt="" />
+            <img class="table-img" src="assets/img/presentation-page/table.jpg" alt="" />
+            <img class="share-btn-img" src="assets/img/presentation-page/share-btn.png" alt="" />
+            <img class="coloured-card-btn-img" src="assets/img/presentation-page/coloured-card-with-btn.png" alt="" />
+            <img class="coloured-card-img" src="assets/img/presentation-page/coloured-card.png" alt="" />
+            <img class="social-img" src="assets/img/presentation-page/social-row.png" alt="" />
+            <img class="pin-btn-img" src="assets/img/presentation-page/pin-btn.png" alt="" />
+          </div>
+        </div>
+        <div class="col-md-10 col-lg-4 ml-auto mr-auto">
+          <div class="container basic-container">
+            <h3 class="title">Basic Components</h3>
+            <h6 class="category">The core elements of your website</h6>
+            <h5 class="description">We re-styled every Bootstrap 4 element to match the Paper Kit style. All the Bootstrap 4 components that you
+              need in a development have been re-design with the new look. Besides the numerous basic elements, we have also
+              created additional classes. All these items will help you take your project to the next level.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+</body>
+
+<!--  Plugins -->
+<!-- Core JS Files -->
+<script src="assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui-1.12.1.custom.min.js" type="text/javascript"></script>
+<script src="assets/js/popper.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/paper-kit.js?v=2.1.0"></script>
+<script src="assets/js/demo.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+
+<!--  Plugins for presentation page -->
+<script src="assets/js/presentation-page/main.js"></script>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<script type="text/javascript">
+    (function () {
+      function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+
+      new IsoGrid(document.querySelector('.isolayer--deco1'), {
+        transform: 'translateX(33vw) translateY(-340px) rotateX(45deg) rotateZ(45deg)',
+        stackItemsAnimation: {
+          properties: function (pos) {
+            return {
+              translateZ: (pos + 1) * 30,
+              rotateZ: getRandomInt(-4, 4)
+            };
+          },
+          options: function (pos, itemstotal) {
+            return {
+              type: dynamics.bezier,
+              duration: 500,
+              points: [{ "x": 0, "y": 0, "cp": [{ "x": 0.2, "y": 1 }] }, { "x": 1, "y": 1, "cp": [{ "x": 0.3, "y": 1 }] }],
+              delay: (itemstotal - pos - 1) * 40
+            };
+          }
+        }
+      });
+    })();
+</script>
+
+</html>

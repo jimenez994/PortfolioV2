@@ -3,7 +3,7 @@ var big_image;
 demo = {
     initContactUsMap: function(){
 
-        var myLatlng = new google.maps.LatLng(44.445248, 26.099672);
+        var myLatlng = new google.maps.LatLng(38.846454, -77.140064);
         var mapOptions = {
           zoom: 14,
           center: myLatlng,
@@ -15,7 +15,7 @@ demo = {
 
         var marker = new google.maps.Marker({
             position: myLatlng,
-            title:"Creative Tim Office"
+            title:"Me"
         });
 
         // To add the marker to the map, call setMap();
@@ -25,7 +25,7 @@ demo = {
 
     initContactUsMap2: function(){
 
-        var myLatlng = new google.maps.LatLng(44.445248, 26.099672);
+        var myLatlng = new google.maps.LatLng(38.846454, -77.140064);
         var mapOptions = {
           zoom: 14,
           center: myLatlng,
@@ -37,7 +37,7 @@ demo = {
 
         var marker = new google.maps.Marker({
             position: myLatlng,
-            title:"Creative Tim Office"
+            title:"Me"
         });
 
         // To add the marker to the map, call setMap();

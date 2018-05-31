@@ -12,8 +12,8 @@ theater
 theater
   .addActor("vader", { speed: 0.8, accuracy: 0.6 })
   .addActor("luke")
-  .addScene("vader:Hi there", 600)
-  .addScene("luke:Hello", 400)
+  .addScene("vader:Hire me now, for fuck sake", 600)
+  .addScene("luke:or I will take a dump in your mailbox", 400)
   .addScene("vader:I need a job", 400)
   .addScene("luke:Nooo...", -3, "!!! ", 600, "No! ", 600)
   .addScene("luke:I mean sorry", 600)
