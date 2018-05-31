@@ -1,0 +1,49 @@
+.typing {
+ 
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.typing {
+  font-size: 1rem;
+  line-height: 1.4;
+  transition: background-color 150ms ease-out, color 150ms ease-out;
+}
+
+.actor {
+  font-size: 2.8rem;
+  display: flex;
+  /* margin-bottom: 2rem; */
+}
+
+.actor:last-of-type {
+  /* margin-bottom: 6rem; */
+}
+
+.actor__content {
+  flex-grow: 1;
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.actor__content--typing::after {
+  content: '|';
+  -webkit-animation: blink 500ms infinite;
+  animation: blink 500ms infinite;
+}

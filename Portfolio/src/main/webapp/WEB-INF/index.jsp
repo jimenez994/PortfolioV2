@@ -1,0 +1,434 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!doctype html>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="../assets/img/favicon.ico">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>Paper Kit 2 PRO by Creative Tim</title>
+
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet" />
+  <link href="assets/css/demo.css" rel="stylesheet" />
+  <link href="assets/css/bg-video.css" rel="stylesheet" />
+  <link href="assets/css/typing.css" rel="stylesheet" />
+  <!--     Fonts and icons     -->
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet">
+
+</head>
+
+<body class="off-canvas-menu presentation-page loading">
+  <!-- header -->
+  <div class="cd-section" id="header">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent nav-down" color-on-scroll="500">
+      <div class="container">
+        <div class="navbar-translate">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="presentation.html">Jonathan Jimenez</a>
+          </div>
+          <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar"></span>
+            <span class="navbar-toggler-bar"></span>
+            <span class="navbar-toggler-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#header" data-scroll="true" href="javascript:void(0)">Components</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#summary" data-scroll="true" href="javascript:void(0)">Something</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" data-scroll="true" href="javascript:void(0)">cool</a>
+            </li>
+            <a href="#paper-kit" target="_blank" class="btn btn-link btn-neutral">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#paper-kit" target="_blank" class="btn btn-link btn-neutral">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <div class="page-header">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="assets/video/bg-video.mp4" type="video/mp4">
+          <source src="assets/video/bg-video.webm" type="video/webm"> Your browser is not supported!
+        </video>
+      </div>
+      <div class="filter"></div>
+      <div class="content-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+              <!-- Typing box-->
+              <div class="typing title text-left">
+                <main class="scene">
+                  <div class="actor">
+                    <div class="actor__prefix"> - </div>
+                    <div id="vader" class="actor__content"></div>
+                  </div>
+                  <div class="actor">
+                    <div class="actor__prefix"> - </div>
+                    <div id="luke" class="actor__content"></div>
+                  </div>
+                  
+                </main>
+              </div>
+              <h5 class="description">Full stack developer seeking opportunities in the DC/metro area. Experienced in building full stack applications. Looking
+              to join a passionate team to develop solutions for real-world problems while continuing to expand upon new innovations and
+              technologies</h5>
+              <a href="" class="btn btn-primary btn-round">Contact me</a>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of header -->
+
+  <!-- About me -->
+  <div class="section section-dark section-summary cd-section" id="about-me">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="info">
+            <div class="icon icon-danger">
+              <i class="nc-icon nc-layout-11"></i>
+            </div>
+            <div class="description">
+              <h4 class="info-title"> Huge Number of Components </h4>
+              <p>The kit comes with components designed to look perfect together. All components fit perfectly with each other.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="info">
+            <div class="icon icon-danger">
+              <i class="nc-icon nc-tile-56"></i>
+            </div>
+            <div class="description">
+              <h4 class="info-title"> Multi-Purpose Sections </h4>
+              <p>The sections will help you generate pages in no time. From team presentation to pricing options, you can easily
+                customise and built your examples.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="info">
+            <div class="icon icon-danger">
+              <i class="nc-icon nc-paper"></i>
+            </div>
+            <div class="description">
+              <h4 class="info-title"> Example Pages </h4>
+              <p>Speed up your development time or get inspired with the large number of example pages. You can jump start your
+                development with our pre-built example pages.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="cd-section" id="skills">
+    <div class="section section-components section-dark">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <div class="image-container">
+            <img class="components-macbook" src="assets/img/presentation-page/laptop-basic.png" alt="" />
+            <img class="table-img" src="assets/img/presentation-page/myImg/java.png" alt="" />
+            <img class="share-btn-img" src="assets/img/presentation-page/myImg/react.png" alt="" />
+            <img class="coloured-card-btn-img" src="assets/img/presentation-page/myImg/json-file.png" alt="" />
+            <img class="coloured-card-img" src="assets/img/presentation-page/myImg/html-5.png" alt="" />
+            <img class="social-img" src="assets/img/presentation-page/myImg/nodejs.png" alt="" />
+            <img class="pin-btn-img" src="assets/img/presentation-page/myImg/logo.svg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-10 col-lg-4 ml-auto mr-auto">
+          <div class="container basic-container">
+            <h3 class="title">Basic Components</h3>
+            <h6 class="category">The core elements of your website</h6>
+            <h5 class="description">We re-styled every Bootstrap 4 element to match the Paper Kit style. All the Bootstrap 4 components that you need
+              in a development have been re-design with the new look. Besides the numerous basic elements, we have also created
+              additional classes. All these items will help you take your project to the next level.</h5>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cd-section section-white" id="projects">
+  
+    <!--     *********    PROJECTS 1     *********      -->
+  
+    <div class="projects-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title">Some of Our Awesome Products - 1</h2>
+            <h5 class="description"> This is the paragraph where you can write more details about your projects. Keep you user engaged by providing
+              meaningful information.</h5>
+          </div>
+        </div>
+        <div class="space-top"></div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/pavel-kosov.jpg')">
+              <div class="card-body">
+                <h6 class="card-category">Productivy Apps</h6>
+                <a href="#pablo">
+                  <h3 class="card-title">The Best Productivity Apps</h3>
+                </a>
+                <p class="card-description">
+                  Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye
+                  I love Rick Owens’ bed design but the back is...
+                </p>
+                <br/>
+                <a href="#pablo" class="btn btn-danger btn-round">
+                  <i class="fa fa-book" aria-hidden="true"></i> Read Article
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/gukhwa-jang.jpg')">
+              <div class="card-body">
+                <h6 class="card-category">Materials</h6>
+                <h3 class="card-title">US venture investment ticks up</h3>
+                <p class="card-description">
+                  Venture investment in U.S. startups rose sequentially in the second quarter of 2017, boosted by large, late-stage financings
+                  and a few outsized early-stage rounds....
+                </p>
+                <br/>
+                <a href="#pablo" class="btn btn-primary btn-round">
+                  <i class="fa fa-book" aria-hidden="true"></i> Read Article
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/joshua-stannard.jpg')">
+              <div class="card-body">
+                <h6 class="card-category">Productivy Apps</h6>
+                <a href="#pablo">
+                  <h3 class="card-title">MateLabs mixes machine</h3>
+                </a>
+                <p class="card-description">
+                  If you’re not familiar with IFTTT, it’s an automation tool for creating your own if/then statements without any programming
+                  knowledge. The service makes it possible...
+                </p>
+                <br/>
+                <a href="#pablo" class="btn btn-info btn-round">
+                  <i class="fa fa-book" aria-hidden="true"></i> Read Article
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="card" data-background="image" style="background-image: url('assets/img/sections/ilya-yakover.jpg')">
+              <div class="card-body">
+                <h6 class="card-category">Materials</h6>
+                <h3 class="card-title">How to find the ‘right’ contacts.</h3>
+                <p class="card-description">
+                  Boom, the invitations start flying and Brella makes it easy to accept/decline, schedule a time and reserve a meeting space
+                  in Disrupt’s white-glove CrunchMatch meeting...
+                </p>
+                <br/>
+                <a href="#pablo" class="btn btn-warning btn-round">
+                  <i class="fa fa-book" aria-hidden="true"></i> Read Article
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cd-section section-white contact-us" id="contact-us">
+
+  <!-- ***** Contact me *** -->
+    <div class="main">
+      <div class="section section-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+              <h2 class="title">Get in touch with us</h2>
+              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users
+                after installed base benefits. Dramatically visualise customer directed convergence without revolutionary ROI.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 ml-auto mr-auto text-center">
+              <h3 class="title">
+                <small>Find us on social networks</small>
+              </h3>
+              <button class="btn btn-just-icon btn-twitter">
+                <i class="fa fa-twitter"></i>
+              </button>
+              <button class="btn btn-just-icon btn-facebook">
+                <i class="fa fa-facebook"></i>
+              </button>
+              <button class="btn btn-just-icon btn-google">
+                <i class="fa fa-google"></i>
+              </button>
+              <button class="btn btn-just-icon btn-dribbble">
+                <i class="fa fa-dribbble"></i>
+              </button>
+              <button class="btn btn-just-icon btn-instagram">
+                <i class="fa fa-instagram"></i>
+              </button>
+              <button class="btn btn-just-icon btn-youtube">
+                <i class="fa fa-youtube"></i>
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 ml-auto mr-auto text-center cd-section section-white" id="contact">
+              <h3 class="title">
+                <small>Or drop me a note</small><br>
+                <small class="text-success">${sucess}</small>
+              </h3>
+              <form:form class="contact" method="post" action="/message/new" modelAttribute="newEmail">
+               
+                <div class="row">
+                  <div class="col-md-6">
+                    <c:if test="${errors['name'] != null}">
+                      <p class="form-control-feedback text-danger">${errors['name']}</p>
+                    </c:if>
+                    <form:input type="text" class="form-control" path="name" placeholder="Name" value="${M.name}"></form:input>
+                  </div>
+                  <div class="col-md-6">
+                    <c:if test="${errors['email'] != null}">
+                      <p class="form-control-feedback text-danger">${errors['email']}</p>
+                    </c:if>
+                    <form:input type="text" class="form-control" path="email" placeholder="Email" value="${M.email}"></form:input>
+                  </div>
+                </div>
+                <div class="">
+                  <c:if test="${errors['subject'] != null}">
+                      <p class="form-control-feedback text-danger">${errors['subject']}</p>
+                    </c:if>
+                    <form:input type="text" class="form-control" path="subject" placeholder="Subject" value="${M.subject}"></form:input>
+                </div>
+                <c:if test="${errors['text'] != null}">
+                      <p class="form-control-feedback text-danger">${errors['text']}</p>
+                    </c:if>
+                <textarea class="form-control" name="MessageText" placeholder="Message" path="text" rows="7" value="${M.text}">${M.text} </textarea>
+    
+                <div class="row">
+                  <div class="col-md-6 ml-auto mr-auto">
+                    <input type="submit" value="send">
+                  </div>
+                </div>
+              </form:form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contactUsMap" class="big-map"></div>
+  </div>
+
+
+
+ 
+  <footer class="footer section-dark">
+    <div class="container">
+      <!-- // your footer here -->
+    </div>
+  </footer>
+
+
+<!-- vertival nav -->
+  <nav id="cd-vertical-nav">
+    <ul>
+      <li>
+        <a href="#header" data-number="1">
+          <span class="cd-dot"></span>
+          <span class="cd-label">Header</span>
+        </a>
+      </li>
+      <li>
+        <a href="#about-me" data-number="2">
+          <span class="cd-dot"></span>
+          <span class="cd-label">About Me</span>
+        </a>
+      </li>
+      <li>
+        <a href="#skills" data-number="3">
+          <span class="cd-dot"></span>
+          <span class="cd-label">Skills</span>
+        </a>
+      </li>
+      <li>
+        <a href="#projects" data-number="4">
+          <span class="cd-dot"></span>
+          <span class="cd-label">Projects</span>
+        </a>
+      </li>
+      <li>
+        <a href="#contact-us" data-number="5">
+          <span class="cd-dot"></span>
+          <span class="cd-label">Contact Us</span>
+        </a>
+      </li>
+ 
+    </ul>
+  </nav>
+</body>
+ <!-- end nav -->
+
+<!-- Core JS Files -->
+<script src='http://cdn.jsdelivr.net/theaterjs/latest/theater.min.js'></script>
+<script src="assets/js/typing.js"></script>
+
+<!-- Core JS Files -->
+<script src="assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui-1.12.1.custom.min.js" type="text/javascript"></script>
+<script src="assets/js/popper.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/paper-kit.js?v=2.1.0"></script>
+<!--  Plugins for Select -->
+<script src="assets/js/bootstrap-select.js"></script>
+
+<!-- map -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ-UwG2QhQze8fgx2B4KPAplCRT670Leo"></script>
+<script src="assets/js/demo.js"></script>
+<script type="text/javascript">
+  $().ready(function () {
+    demo.initContactUsMap()
+  });
+</script>
+
+<!--  Plugins for presentation page -->
+<script src="assets/js/presentation-page/main.js"></script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</html>
