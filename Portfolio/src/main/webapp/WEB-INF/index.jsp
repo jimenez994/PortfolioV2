@@ -174,41 +174,39 @@
               <div class="row">
                 <div class="col-md-8 ml-auto mr-auto text-center">
                   <h2 class="title">Some of My Awesome Projects</h2>
-                  <h5 class="description"> This is some of my projects that worked on in the pass few months.</h5>
+                  <h5 class="description text-white"> This is some of my projects that worked on in the pass few months.</h5>
                 </div>
               </div>
               <div class="space-top"></div>
               <div class="row">
                 <div class="col-md-5">
-                  <div class="card" data-background="image" style="background-image: url('assets/img/sections/pavel-kosov.jpg')">
+                  <div class="card" data-background="image" style="background-image: url('assets/img/sections/rcodes.png')">
                     <div class="card-body">
-                      <h6 class="card-category">Productivy Apps</h6>
+                      <h6 class="card-category">Rcodes</h6>
                       <a href="#pablo">
-                        <h3 class="card-title">The Best Productivity Apps</h3>
+                        <h3 class="card-title">Java, MySQL</h3>
                       </a>
                       <p class="card-description">
-                        Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye
-                        I love Rick Owens’ bed design but the back is...
+                        Web app designed to allow coders to ask and answer tech realted questions and provide a platform to search for jobs.
                       </p>
                       <br/>
-                      <a href="#pablo" class="btn btn-danger btn-round">
-                        <i class="fa fa-book" aria-hidden="true"></i> Read Article
+                      <a target="_black" href="http://52.87.163.128" class="btn btn-danger btn-round">
+                        <i class="fa fa-book" aria-hidden="true"></i>Visit Rcodes
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-7">
-                  <div class="card" data-background="image" style="background-image: url('assets/img/sections/gukhwa-jang.jpg')">
+                  <div class="card" data-background="image" style="background-image: url('assets/img/sections/DevC.png')">
                     <div class="card-body">
-                      <h6 class="card-category">Materials</h6>
-                      <h3 class="card-title">US venture investment ticks up</h3>
+                      <h6 class="card-category">DevC</h6>
+                      <h3 class="card-title">Java, MySQL, React</h3>
                       <p class="card-description">
-                        Venture investment in U.S. startups rose sequentially in the second quarter of 2017, boosted by large, late-stage financings
-                        and a few outsized early-stage rounds....
+                        Designed to create a portfolio, to see what other developers are working on and share ideas.
                       </p>
                       <br/>
-                      <a href="#pablo" class="btn btn-primary btn-round">
-                        <i class="fa fa-book" aria-hidden="true"></i> Read Article
+                      <a target="_black" href="http://107.21.178.139" class="btn btn-primary btn-round">
+                        <i class="fa fa-book" aria-hidden="true"></i> Visit DevC
                       </a>
                     </div>
                   </div>
@@ -216,19 +214,18 @@
               </div>
               <div class="row">
                 <div class="col-md-7">
-                  <div class="card" data-background="image" style="background-image: url('assets/img/sections/joshua-stannard.jpg')">
+                  <div class="card" data-background="image" style="background-image: url('assets/img/sections/Cards.png')">
                     <div class="card-body">
-                      <h6 class="card-category">Productivy Apps</h6>
+                      <h6 class="card-category">Cards</h6>
                       <a href="#pablo">
-                        <h3 class="card-title">MateLabs mixes machine</h3>
+                        <h3 class="card-title">Java, MySQL, React</h3>
                       </a>
                       <p class="card-description">
-                        If you’re not familiar with IFTTT, it’s an automation tool for creating your own if/then statements without any programming
-                        knowledge. The service makes it possible...
+                        A mini project to play around with file upload using java react, create a quote and share with everyone.
                       </p>
                       <br/>
-                      <a href="#pablo" class="btn btn-info btn-round">
-                        <i class="fa fa-book" aria-hidden="true"></i> Read Article
+                      <a target="_black" href="http://34.226.202.222" class="btn btn-info btn-round">
+                        <i class="fa fa-book" aria-hidden="true"></i> Visit Cards
                       </a>
                     </div>
                   </div>
@@ -259,9 +256,12 @@
           <div class="main">
             <div class="section section-gray">
               <div class="container">
-                <div class="row">
+                <div class="row text-center">
                   <div class="col-md-8 ml-auto mr-auto text-center">
                     <h2 class="title">Get in touch</h2>
+                    <p>My resume</p>
+                    <a class="btn btn-primary btn-round" href="download/Jonathan_Jimenez_Resume_2018.pdf" download>Download link</a>
+                    
                   </div>
                 </div>
                 <div class="row">
