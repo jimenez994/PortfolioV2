@@ -333,17 +333,11 @@
           </div>
           <div id="contactUsMap" class="big-map"></div>
         </div>
-
-
-
-
         <footer class="footer section-dark">
           <div class="container">
             <!-- // your footer here -->
           </div>
         </footer>
-
-
         <!-- vertival nav -->
         <nav id="cd-vertical-nav">
           <ul>
